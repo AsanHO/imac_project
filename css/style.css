@@ -51,7 +51,7 @@ p {
     background-position: 0% 50%;
   }
 }
-.wifi{
+.wifi {
   display: flex;
   flex-direction: column;
   font-size: x-large;
@@ -62,6 +62,6 @@ p {
   border-radius: 15px;
   padding: 20px 100px;
 }
-.wifi span{
+.wifi span {
   line-height: 30px;
 }
