@@ -5,548 +5,426 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Momentum-Clone</title>
-
-    <style>
-      .hcx15 {
-        color: #ffffff;
-        font-size: 11pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      }
-      .hcx22 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        border-top: none;
-        border-left: none;
-        border-bottom: 1.5pt solid #ffffff;
-        border-right: none;
-        text-align: general;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx23 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        text-align: general;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx24 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        text-align: general;
-        vertical-align: middle;
-        white-space: normal;
-      }
-      .hcx25 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        text-align: general;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx26 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx27 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx28 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        mso-number-format: "General";
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx29 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        border-top: none;
-        border-left: none;
-        border-bottom: 1.5pt solid #ffffff;
-        border-right: none;
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx31 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        border-top: none;
-        border-left: none;
-        border-bottom: 1pt solid #ffffff;
-        border-right: none;
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx32 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 700;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        border-top: none;
-        border-left: none;
-        border-bottom: none;
-        border-right: none;
-        text-align: left;
-        vertical-align: bottom;
-        white-space: normal;
-      }
-      .hcx37 {
-        color: #ffffff;
-        font-size: 19pt;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      }
-      .hcx_t_s {
-        display: table-cell;
-      }
-    </style>
   </head>
   <body>
-    <p class="bottomButton-color">GRAVITY</p>
-    <table
-      class="hcx15"
-      width="1728"
-      cellspacing="0"
-      cellpadding="0"
-      border="0"
-      style="border-collapse: collapse; table-layout: fixed"
-    >
-      <col span="1" width="307" />
-      <col span="1" width="52" />
-      <col span="2" width="277" />
-      <col span="1" width="52" />
-      <col span="1" width="277" />
-      <col span="1" width="309" />
-      <col span="1" width="52" />
-      <col span="1" width="43" />
-      <col span="1" width="80" />
-      <tr height="43">
-        <td class="hcx22" width="307" height="43">COFFEE</td>
-        <td class="hcx23" width="52" height="43">HOT</td>
-        <td class="hcx23" width="277" height="43">ICE</td>
-        <td class="hcx22" width="277" height="43">ADE</td>
-        <td class="hcx23" width="52" height="43">HOT</td>
-        <td class="hcx23" width="277" height="43">ICE</td>
-        <td class="hcx22" width="309" height="43">PREMIUM TEA-TAVALON</td>
-        <td class="hcx23" width="52" height="43">HOT</td>
-        <td class="hcx23" width="43" height="43">ICE</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">에스프레소</td>
-        <td class="hcx26" width="52" height="43">4</td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">자몽에이드</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx27" width="309" height="43">BLACK TEA</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">에스프레소 콘파냐</td>
-        <td class="hcx26" width="52" height="43">4.5</td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">레몬에이드</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">얼그레이리저브</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">아메리카노</td>
-        <td class="hcx26" width="52" height="43">4</td>
-        <td class="hcx26" width="277" height="43">4.5</td>
-        <td class="hcx26" width="277" height="43">오렌지에이드</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">망고멜랑</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">플랫화이트(진한라떼)</td>
-        <td class="hcx26" width="52" height="43">4</td>
-        <td class="hcx26" width="277" height="43">4.5</td>
-        <td class="hcx26" width="277" height="43">백향과에이드</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx28" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">우바</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">카페라떼</td>
-        <td class="hcx26" width="52" height="43">4.5</td>
-        <td class="hcx26" width="277" height="43">5</td>
-        <td class="hcx26" width="277" height="43">피치블라썸(복숭아과육)</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx27" width="309" height="43">HERBAL TEA</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">카푸치노</td>
-        <td class="hcx26" width="52" height="43">4.5</td>
-        <td class="hcx26" width="277" height="43">5</td>
-        <td class="hcx26" width="277" height="43">고흥유자에이드</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="309" height="43">쿨민트</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">카라멜마끼아또</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx29" width="277" height="43">SHAKE</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="309" height="43">로얄캐모마일</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">바닐라라떼</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">누텔라 초코</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">루이보스빌베리</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">헤이즐넛라떼</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">누텔라 오레오</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">캐리비안칵테일</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">파베카페모카</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">누텔라 바나나</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx27" width="309" height="43">GREEN TEA</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">파베화이트카페모카</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">제주말차쉐이크</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">자스민 펄</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">아포가토(바닐라)</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6.5</td>
-        <td class="hcx26" width="277" height="43">순수밀크쉐이크</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx29" width="309" height="43">SIGNATURE TEA</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx22" width="307" height="43">SIGNATURE</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">리얼미숫가루</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">레몬차</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">연유크림라떼</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="309" height="43">자몽차</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">융프라우쇼콜라</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx29" width="277" height="43">SMOOTHIE</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="309" height="43">백향과차</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">사막커피</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">딸기바나나</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">고흥유자차</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">콜드브루</td>
-        <td class="hcx26" width="52" height="43">5</td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">키위바나나</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">UVA밀크티</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">아인슈페너</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">5.5</td>
-        <td class="hcx26" width="277" height="43">망고바나나</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">발로나초코라떼</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">히말라야라떼</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43">코코넛</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">제주말차라떼</td>
-        <td class="hcx26" width="52" height="43">5.5</td>
-        <td class="hcx26" width="43" height="43">6</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">아몬드크림라떼</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43">딸기</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">마론(밤)라떼</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx22" width="307" height="43">FRAPPUCCHINO(커피 O)</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">키위</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">피치아이스티</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43">4.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">모카</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43">플레인 요거트</td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">흑당버블라떼(커피 X)</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">화이트모카</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43">딸기 요거트</td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="309" height="43">청귤차,청귤에이드</td>
-        <td class="hcx26" width="52" height="43">6</td>
-        <td class="hcx26" width="43" height="43">6.5</td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43">민트초코</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx26" width="277" height="43">블루베리 요거트</td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx32" width="309" height="43"></td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43"></td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx31" width="277" height="43">REAL FRUIT JUICE</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="309" height="43"></td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="43" height="43"></td>
-        <td class="hcx24" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx25" width="307" height="43"></td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">키위</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx15" width="309" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="43" height="43"></td>
-        <td class="hcx15" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx15" width="307" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">토마토</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx15" width="309" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="43" height="43"></td>
-        <td class="hcx15" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx15" width="307" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">바나나</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx15" width="309" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="43" height="43"></td>
-        <td class="hcx15" width="80" height="43"></td>
-      </tr>
-      <tr height="43">
-        <td class="hcx15" width="307" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="277" height="43"></td>
-        <td class="hcx26" width="277" height="43">오렌지(계절변동)</td>
-        <td class="hcx26" width="52" height="43"></td>
-        <td class="hcx26" width="277" height="43">6</td>
-        <td class="hcx15" width="309" height="43"></td>
-        <td class="hcx15" width="52" height="43"></td>
-        <td class="hcx15" width="43" height="43"></td>
-        <td class="hcx15" width="80" height="43"></td>
-      </tr>
-    </table>
+    <section class="first bottomButton-color">
+      <div class="coffee">
+        <div>
+          <span>COFFEE</span>
+          <span>HOT</span>
+          <span>ICE</span>
+        </div>
+        <div>
+          <span>에스프레소</span>
+          <span>4</span>
+          <span></span>
+        </div>
+        <div>
+          <span>에스프레소 콘파냐</span>
+          <span>4.5</span>
+          <span></span>
+        </div>
+        <div>
+          <span>아메리카노</span>
+          <span>4</span>
+          <span>4.5</span>
+        </div>
+        <div>
+          <span>플랫화이트(진한라떼)</span>
+          <span>4</span>
+          <span>4.5</span>
+        </div>
+        <div>
+          <span>카페라떼</span>
+          <span>4.5</span>
+          <span>5</span>
+        </div>
+        <div>
+          <span>카푸치노</span>
+          <span>4.5</span>
+          <span>5</span>
+        </div>
+        <div>
+          <span>카라멜 마끼아또</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>바닐라 라떼</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>헤이즐넛 라떼</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>파베카페모카</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>파베화이트카페모카</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>아포카토(바닐라)</span>
+          <span></span>
+          <span>6.5</span>
+        </div>
+      </div>
+      <div class="signature">
+        <div>
+          <span>SIGNATURE</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>연유크림라떼</span>
+          <span>5.5</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>융프라우쇼콜라</span>
+          <span>5.5</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>사막커피</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>콜드브루</span>
+          <span>5</span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>아인슈페너</span>
+          <span></span>
+          <span>5.5</span>
+        </div>
+        <div>
+          <span>히말라야라떼</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>아몬드크림라떼</span>
+          <span></span>
+          <span>6</span>
+        </div>
+      </div>
+      <div class="frappucchino">
+        <div>
+          <span>FRAPPUCCHINO</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>모카</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>화이트모카</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>민트초코</span>
+          <span></span>
+          <span>6</span>
+        </div>
+      </div>
+    </section>
+    <section class="second">
+      <div class="ade">
+        <div>
+          <span>ADE</span>
+          <span>ONLY</span>
+          <span>ICE</span>
+        </div>
+        <div>
+          <span>자몽에이드</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>레몬에이드</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>오렌지에이드</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>백향과에이드</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>피치블라썸(복숭아과육)</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>고흥유자에이드</span>
+          <span></span>
+          <span>5.5</span>
+        </div>
+      </div>
+      <div class="shake">
+        <div>
+          <span>SHAKE</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>누텔라 초코</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>누텔라 오레오</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>누텔라 바나나</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>제주말차쉐이크</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>순수밀크쉐이크</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>리얼미숫가루</span>
+          <span></span>
+          <span>6</span>
+        </div>
+      </div>
+      <div class="smoothie">
+        <div>
+          <span>SMOOTHIE</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>딸기바나나</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>키위바나나</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>망고바나나</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>코코넛</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>딸기</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>키위</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        
+        </div>
+      </div>
+      <div class="juice">
+        <div>
+          <span>YOGURT</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>플레인요거트</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>딸기 요거트</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>블루베리 요거트</span>
+          <span></span>
+          <span>6</span>
+        </div>
+      </div>
+      <div class="juice">
+        <div>
+          <span>REAL FRUIT JUICE</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>키위</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>토마토</span>
+          <span></span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>바나나</span>
+          <span></span>
+          <span>6</span>
+        </div>
+      </div>
+    </section>
+    <section class="third">
+      <div class="tea">
+        <div>
+          <span>PREMIUM TEA-TAVALON</span>
+          <span>HOT</span>
+          <span>ICE</span>
+        </div>
+        <div>
+          <span>BLACK TEA</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>- 얼그레이리저브</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>- 망고멜랑</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>- 우바</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>HERBER TEA</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>- 쿨민트</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>- 로얄캐모마일</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>- 루이보스빌베리</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>- 캐리비안칵테일</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>GREEN TEA</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>- 자스민 펄</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+      </div>
+      <div class="signatureTea">
+        <div>
+          <span>SIGNATURE TEA</span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <span>레몬차</span>
+          <span>6</span>
+          <span></span>
+        </div>
+        <div>
+          <span>자몽차</span>
+          <span>6</span>
+          <span></span>
+        </div>
+        <div>
+          <span>백향과차</span>
+          <span>6</span>
+          <span></span>
+        </div>
+        <div>
+          <span>고흥유자차</span>
+          <span>5.5</span>
+          <span></span>
+        </div>
+        <div>
+          <span>UVA 밀크티</span>
+          <span>5.5</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>발로나 초코 라떼</span>
+          <span>5.5</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>제주 말차 라떼</span>
+          <span>5.5</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>마론(밤) 라떼</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+        <div>
+          <span>피치 아이스티</span>
+          <span></span>
+          <span>4.5</span>
+        </div>
+        <div>
+          <span>흑당 버블라떼</span>
+          <span></span>
+          <span>4.5</span>
+        </div>
+        <div>
+          <span>청귤차, 청귤에이드</span>
+          <span>6</span>
+          <span>6.5</span>
+        </div>
+      </div>
+    </section>
     <div class="wifi">
       <i class="fas fa-wifi fa-6x"> </i>
       <span>ID:GRAVITY</span>

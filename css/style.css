@@ -12,11 +12,14 @@
 }
 
 body {
+  font-size: 35px;
+  font-weight: 600;
   margin-left: 2%;
   position: relative;
   width: 100%;
   height: 100vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -35,11 +38,6 @@ body {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
-p {
-  font-size: 50px;
-  padding-right: 200px;
-}
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -51,17 +49,76 @@ p {
     background-position: 0% 50%;
   }
 }
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .wifi {
   display: flex;
   flex-direction: column;
   font-size: x-large;
   position: absolute;
-  bottom: 3%;
-  right: 20%;
-  border: 4px solid whitesmoke;
+  bottom: 1%;
+  right: 4%;
+  border: 5px solid whitesmoke;
   border-radius: 15px;
-  padding: 20px 100px;
+  padding: 0px 250px;
 }
 .wifi span {
   line-height: 30px;
+}
+section div {
+  width: 90%;
+}
+div div {
+  display: grid;
+  grid-template-columns: 8fr 1.3fr 1.3fr;
+  margin-bottom: 13px;
+}
+div div:nth-child(1) {
+  border-bottom: 2px solid white;
+}
+p {
+  color: linear-gradient(-45deg, #ffa69e, #e58c8a, #eec0c6);
+}
+p {
+  color: linear-gradient(-45deg, #ffa69e, #e58c8a, #eec0c6);
+}
+
+p {
+  color: linear-gradient(-45deg, #9fa4c4, #b3cdd1, #bdd4e7, #8693ab);
+}
+
+p {
+  color: linear-gradient(-45deg, #a7acd9, #9e8fb2, #90d5ec, #fc575e);
+}
+
+p {
+  color: linear-gradient(-45deg, #ffd8cb, #f9d29d, #fad0c4, #f1a7f1);
+}
+
+p {
+  color: linear-gradient(-45deg, #bbf0f3, #f6d285, #e8dbfc, #f8f9d2);
+}
+
+p {
+  color: linear-gradient(-45deg, #09203f, #537895, #2f4353, #d2ccc4);
+}
+
+p {
+  color: linear-gradient(-45deg, #2884b8, #d1bad2, #b1ade2, #7ddff8);
+}
+
+p {
+  color: linear-gradient(
+    -45deg,
+    #0d324d,
+    #485461,
+    #7f5a83,
+    #c2b6b6,
+    #a5c7b7,
+    #8cacac
+  );
 }
