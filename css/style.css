@@ -70,7 +70,7 @@ section {
   line-height: 30px;
 }
 section div {
-  width: 90%;
+  width: 80%;
 }
 div div {
   display: grid;
@@ -79,6 +79,9 @@ div div {
 }
 div div:nth-child(1) {
   border-bottom: 2px solid white;
+}
+h1 {
+  font-size: 100px;
 }
 p {
   color: linear-gradient(-45deg, #ffa69e, #e58c8a, #eec0c6);
